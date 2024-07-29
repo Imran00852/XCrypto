@@ -1,0 +1,28 @@
+.btn {
+  height: 20vh;
+  display: flex;
+  overflow-x: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: auto;
+
+  button {
+    padding: 1rem;
+    background-color: black;
+    font-weight: 600;
+    color: white;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    min-width: 4rem;
+    height: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      background-color: rgb(25, 24, 24);
+    }
+  }
+}
